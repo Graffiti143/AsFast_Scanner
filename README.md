@@ -5,8 +5,11 @@ Check the requirements before run the file
 
 How to run the file :
 
-....> python asfast.py gateway_address/subnet
+....> python asfast.py -t gateway_address/subnet
+(OR)
+....> python asfast.py --target gateway_address/subnet
 
 (gateway_address/subnet  --> CIDR Format)
 
-Eg: ....> python asfast.py 192.168.55.1/24 
+Eg: ....> python asfast.py -t 192.168.55.1/24 
+    ....> python asfast.py -target 192.168.55.1/24

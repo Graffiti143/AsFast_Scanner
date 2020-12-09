@@ -1,0 +1,10 @@
+####To run this scanner we need two packages from Python####
+
+###We need to run these in terminal(linux) or cmd(Windows)###
+
+****Scapy****
+-->pip install scapy
+
+
+****optparse****
+-->pip install optparse-pretty
